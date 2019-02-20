@@ -4,16 +4,16 @@ System operacyjny w środowisku sieciowym
 Charakterystyka systemu operacyjnego
 ------------------------------------
 
-| Charakterystyka | wartość           | komentarzu |
+| Charakterystyka | wartość           | komentarz |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
-| program (parametry sieci)      | niewiem |  |
+| nazwa      | linux | lubuntu 18.10 |
+| program (parametry sieci)      | ifconfig |  |
 
 
 Konfiguracja połączenia sieciowego
 ----------------------------------
 
-| Parametr | wartość           | komentarzu |
+| Parametr | wartość           | komentarz |
 | ------------- |:-------------:| -----:|
 | Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
 | Maska podsieci      |  |  |
