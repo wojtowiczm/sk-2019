@@ -15,8 +15,8 @@ Konfiguracja połączenia sieciowego
 | Parametr | wartość           | komentarz |
 | ------------- |:-------------:| -----:|
 | Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
-| Maska podsieci      | 255.255.255.0 | ifconfig |
-| Brama      | 10.0.2.2 | ip r |
+| Maska podsieci      | 255.255.255.0 | $ ifconfig |
+| Brama      | 10.0.2.2 | $ ip r |
 | DNS 1      | 127.0.0.53 | $ cat /etc/resolv.conf |
 | DNS 2      |  | brak |
 
