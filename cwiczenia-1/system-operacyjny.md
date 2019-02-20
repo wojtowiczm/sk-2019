@@ -15,10 +15,10 @@ Konfiguracja połączenia sieciowego
 
 | Parametr | wartość           | komentarz |
 | ------------- |:-------------:| -----:|
-| Adres IP      | XX.XX.XX.XX | przydzielony przez DHCP |
-| Maska podsieci      |  |  |
-| Brama      |  |  |
-| DNS 1      |  |  |
+| Adres IP      | 10.0.2.15 | przydzielony przez DHCP |
+| Maska podsieci      | 255.255.255.0 |  |
+| Brama      | 10.0.2.255 |  |
+| DNS 1      | 127.0.0.53 |  |
 | DNS 2      |  |  |
 
 Schemat sieci
@@ -26,8 +26,6 @@ Schemat sieci
 
 aby załączyć obrazek 
 
-```markdown
 ![alt schemat](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)![alt schemat](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png)
 
 ![alt schemat](images/my-network-schema.png)
-```
