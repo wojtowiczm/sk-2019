@@ -11,19 +11,19 @@ Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  | 10.0.2.15 | |
+|   PC 1 | lubuntu 18.10 | |
+| IP - address  | 10.0.2.4 | |
 | MASKA  | 255.255.255.0 | |
 |   |  | |
-| PC 2  | | |
-| IP - address  | 10.0.2.4 | |
+| PC 2  | lubuntu 18.10 | |
+| IP - address  | 10.0.2.15 | |
 | MASKA  | 255.255.255.0 | |
 
 Weryfikacja połączenia
 
 Polecenie
 ```
-ping
+ping 10.0.2.15
 ```
 
 Efekt
@@ -83,9 +83,9 @@ Warto wiedzieć
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
 | Lokalizacja pliku z konfiguracją sieci| | |
-| UP -> Wyłączenie interfejsu sieciowego| | |
-| DOWN -> Włączenie interfejsu sieciowego| | |
-| Sprawdzenie obecnych parametrów | | |
-| lista wszystkich interfejsów | | |
+| UP -> Wyłączenie interfejsu sieciowego| ifup | |
+| DOWN -> Włączenie interfejsu sieciowego| ifdown | |
+| Sprawdzenie obecnych parametrów | nmcli | |
+| lista wszystkich interfejsów | ip a | |
 | Które interfejsy jakie porty słuchają | | |
 
