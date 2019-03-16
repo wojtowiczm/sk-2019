@@ -6,8 +6,7 @@ Charakterystyka systemu operacyjnego
 
 | Charakterystyka | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| nazwa      | linux | centos 7 |
-| program (parametry sieci)      | niewiem |  |
+| nazwa      | linux | debian |
 
 
 Konfiguracja połączenia sieciowego
