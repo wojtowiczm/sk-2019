@@ -20,5 +20,8 @@ Sprawozdanie
 1.1 ``sudo ifconfig enp0s3 172.16.100.10 netmask 255.255.255.0``  
     service network-manager restart  
 1.2 ![zadanie 3](ping.JPG)  
-2.1 ``curl -X POST -d '{"text": "Hello World"}' http://172.16.100.10:8888/chat``  
+2.1 ``git clone https://github.com/jkanclerz/http-chat``
+2.2 ``curl -X POST -d '{"text": "Hello World"}' http://172.16.100.10:8888/chat``  
     ![zadanie 3](httpchat.JPG)
+3   ![zadanie 3](pingWin.JPG)
+    ![zadanie 3](httpchatWin.JPG)
