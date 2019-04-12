@@ -19,5 +19,5 @@ Sprawozdanie
 
 1.1 ``sudo ifconfig enp0s3 172.16.100.10 netmask 255.255.255.0``  
     service network-manager restart  
-1.2 ![zadanie 3](ping.JPG)  
+1.2   ![zadanie 3](ping.JPG)  
 2.1 Zainstaluj na komputerze ``PC1`` serwer programu ``HTTP CHAT`` dostępnego pod adresem ``https://github.com/jkanclerz/http-chat``  
