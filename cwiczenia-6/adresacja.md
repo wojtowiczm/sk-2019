@@ -4,21 +4,6 @@ Struktura adresu IP
 ```192.168.100.192```
 ```255.255.255.0```
 
-Adres sieci
------------
-
-1. 
-2.
-3.
-
-Adres rozgłoszeniowy
------------
-
-1. 
-2.
-3.
-
-
 Podział na równą ilość podsieci
 -------------------------------
 
