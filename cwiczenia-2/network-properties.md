@@ -26,11 +26,8 @@ Polecenie
 ping 10.0.2.15
 ```
 
-Efekt
-```
-```
-
 Statyczna konfiguracja parametrów połączenia
+
 Wejściowe parametry sieci
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
@@ -43,38 +40,6 @@ Wejściowe parametry sieci
 | IP - address  | 172.16.100.100 | |
 | MASKA  | 255.255.0.0 | |
 
-Weryfikacja połączenia
-
-Polecenie
-```
-```
-
-Efekt
-```
-```
-
-Nowa statyczna konfiguracja 
-
--------------------------
-| Parametr | wartość | komentarz(opcionalny) |
-| ------------- |:-------------:| -----:|
-|   PC 1 |  
-| IP - address  |  | |
-| MASKA  |  | |
-|   |  | |
-| PC 2  |  | |
-| IP - address  |  | |
-| MASKA  |  | |
-
-Weryfikacja połączenia
-
-Polecenie
-```
-```
-
-Efekt
-```
-```
 
 Warto wiedzieć
 --------------
