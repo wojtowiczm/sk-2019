@@ -13,8 +13,8 @@ ip
 -------------------------
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |                               | |
-|               |   ``ip route add``             | |
+|   ``route``    |                               |  |
+|               |   ``ip route add``             | służy do zarządzania tablicami routingu wewnątrz jądra. Pozwala na dodawanie, usuwanie i modyfikowanie tras. |
 
 
 Zadanie
