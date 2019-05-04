@@ -87,5 +87,5 @@ Warto wiedzieć
 | DOWN -> Włączenie interfejsu sieciowego| ifdown | |
 | Sprawdzenie obecnych parametrów | nmcli | |
 | lista wszystkich interfejsów | ip a | |
-| Które interfejsy jakie porty słuchają | | |
+| Które interfejsy jakie porty słuchają | netstat --listen | |
 
