@@ -82,7 +82,7 @@ Warto wiedzieć
 -------------------------
 | Parametr | wartość | komentarz(opcionalny) |
 | ------------- |:-------------:| -----:|
-| Lokalizacja pliku z konfiguracją sieci| | |
+| Lokalizacja pliku z konfiguracją sieci| /etc/network/interfaces(Ubuntu/Debian)  /etc/sysconfig/network(Red Hat/Fedora/CentOS) | |
 | UP -> Wyłączenie interfejsu sieciowego| ifup | |
 | DOWN -> Włączenie interfejsu sieciowego| ifdown | |
 | Sprawdzenie obecnych parametrów | nmcli | |
