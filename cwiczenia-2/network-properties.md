@@ -26,7 +26,6 @@ Polecenie
 ping 10.0.2.15
 ```
 
-Statyczna konfiguracja parametrów połączenia
 
 Wejściowe parametry sieci
 -------------------------
