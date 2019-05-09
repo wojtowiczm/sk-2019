@@ -44,4 +44,11 @@ PC2
 
 --------------
 
+Zmiana adresów ip:
 ``ip addr add`` adres ip ``dev`` nazwa interfejsu 
+
+Włączenie ip forwarding na PC0:
+``sysctl -w net.ipv4.ip_forward=1``
+
+Dodanie trasy na PC1 i PC2:
+``ip route add default via`` adres ip PC0
