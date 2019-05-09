@@ -36,8 +36,12 @@ PC1
 |:-------------| :------| 
 | eth0 | 172.22.160.2/23 |
 
-PC1
+PC2
 ---
 |  interfejs   | adres  |
 |:-------------| :------| 
 | eth0 | 172.22.128.2/19 |
+
+--------------
+
+ip addr add ``adres ip`` dev ``nazwa interfejsu`` 
