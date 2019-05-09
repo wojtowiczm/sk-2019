@@ -44,4 +44,4 @@ PC2
 
 --------------
 
-ip addr add ``adres ip`` dev ``nazwa interfejsu`` 
+``ip addr add`` adres ip ``dev`` nazwa interfejsu 
