@@ -174,7 +174,7 @@ W sumie 420 komputerów
 ### DHCP
 ``apt install isc-dhcp-server``    
 #### Sale
-``/etc/default/isc-dhcp-server``
+``/etc/default/isc-dhcp-server``  
 ``INTERFACESv4=enp0s8 enp0s9``  
   
 ``/etc/dhcp/dhcpd.con``  
@@ -193,7 +193,7 @@ subnet 10.0.115.0 netmask 255.255.252.192 {
 }
 ```
 #### Wi-Fi
-``/etc/default/isc-dhcp-server``
+``/etc/default/isc-dhcp-server``  
 ``INTERFACESv4=enp0s8``  
   
 ``/etc/dhcp/dhcpd.con``  
