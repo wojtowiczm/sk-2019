@@ -172,10 +172,12 @@ W sumie 420 komputerów
 ``sudo iptables-save | sudo tee /etc/iptables.sav``  
 
 ### DHCP
-``apt install isc-dhcp-server``  
-``/etc/default/isc-dhcp-server``  
-``INTERFACESv4=enp0s8``
+``apt install isc-dhcp-server``    
 #### Sale
+``/etc/default/isc-dhcp-server``
+``INTERFACESv4=enp0s8 enp0s9``  
+  
+``/etc/dhcp/dhcpd.con``  
 ```
 subnet 10.0.201.0 netmask 255.255.252.192 {
         option routers                  10.0.201.1;
@@ -191,6 +193,10 @@ subnet 10.0.115.0 netmask 255.255.252.192 {
 }
 ```
 #### Wi-Fi
+``/etc/default/isc-dhcp-server``
+``INTERFACESv4=enp0s8``  
+  
+``/etc/dhcp/dhcpd.con``  
 ```
 subnet 10.0.0.0 netmask 255.255.252.0 {
         option routers                  10.0.0.1;
