@@ -130,13 +130,13 @@ W sumie 420 komputerów
        enp0s8:  
         dhcp4: no  
         addresses: [10.0.201.1/26]  
-        gateway4: 10.0.201.1  
+        gateway4: 188.156.220.161  
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]  
        enp0s9:  
         dhcp4: no  
         addresses: [10.0.115.1/26]  
-        gateway4: 10.0.115.1 
+        gateway4: 188.156.220.161 
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]
   ```
@@ -155,7 +155,7 @@ W sumie 420 komputerów
        enp0s8:  
         dhcp4: no  
         addresses: [10.0.0.1/22]  
-        gateway4: 10.0.0.1  
+        gateway4: 188.156.220.177  
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]  
   ```
