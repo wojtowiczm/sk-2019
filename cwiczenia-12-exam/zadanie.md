@@ -93,9 +93,9 @@ W sumie 420 komputerów
 ## Konfiguracja
 ``/etc/hostname`` - zmiana nazwy komputera
 
-### ip
-#### Serwer główny
+### Ustawienie statycznego ip
  ``/etc/netplan/01-network-manager-all.yaml``
+#### Serwer główny
  ```network:  
     version: 2  
     renderer: NetworkManager  
@@ -111,4 +111,47 @@ W sumie 420 komputerów
         addresses: [188.156.220.177/28]  
         gateway4: 188.156.220.177  
         nameservers:  
-          addresses: [8.8.4.4,8.8.8.8]```
+          addresses: [8.8.4.4,8.8.8.8]
+  ```
+#### Sale
+```network:  
+    version: 2  
+    renderer: NetworkManager  
+    ethernets:  
+       enp0s3:  
+        dhcp4: no  
+        addresses: [188.156.220.162/28]  
+        gateway4: 188.156.220.161  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]  
+       enp0s8:  
+        dhcp4: no  
+        addresses: [10.0.201.1/26]  
+        gateway4: 10.0.201.1  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]  
+       enp0s9:  
+        dhcp4: no  
+        addresses: [10.0.115.1/26]  
+        gateway4: 10.0.115.1 
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]
+  ```
+#### Wi-Fi
+```network:  
+    version: 2  
+    renderer: NetworkManager  
+    ethernets:  
+       enp0s3:  
+        dhcp4: no  
+        addresses: [188.156.220.178/28]  
+        gateway4: 188.156.220.177  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]  
+       enp0s8:  
+        dhcp4: no  
+        addresses: [10.0.0.1/22]  
+        gateway4: 10.0.0.1  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]  
+  ```
