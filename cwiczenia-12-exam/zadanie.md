@@ -88,7 +88,9 @@
   * 204
     * ``10.0.204.0/26``
   
-W sumie 420 komputerów
+W sumie 420 komputerów  
+
+![diagram](diagram.svg)
 
 ## Konfiguracja
 ``/etc/hostname`` - zmiana nazwy komputera
