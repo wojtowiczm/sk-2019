@@ -97,7 +97,8 @@ W sumie 420 komputerów
  ``/etc/netplan/01-network-manager-all.yaml``
  
 #### Serwer główny
- ```network:  
+ ```
+    network:  
     version: 2  
     renderer: NetworkManager  
     ethernets:  
@@ -115,7 +116,8 @@ W sumie 420 komputerów
           addresses: [8.8.4.4,8.8.8.8]
   ```
 #### Sale
-```network:  
+```
+    network:  
     version: 2  
     renderer: NetworkManager  
     ethernets:  
@@ -139,7 +141,8 @@ W sumie 420 komputerów
           addresses: [8.8.4.4,8.8.8.8]
   ```
 #### Wi-Fi
-```network:  
+```
+    network:  
     version: 2  
     renderer: NetworkManager  
     ethernets:  
@@ -173,7 +176,8 @@ W sumie 420 komputerów
 ``/etc/default/isc-dhcp-server``  
 ``INTERFACESv4=enp0s8``
 #### Sale
-```subnet 10.0.201.0 netmask 255.255.252.192 {
+```
+subnet 10.0.201.0 netmask 255.255.252.192 {
         option routers                  10.0.201.1;
         option subnet-mask              255.255.252.192;
         option domain-name-servers      10.0.201.1;
@@ -187,7 +191,8 @@ subnet 10.0.115.0 netmask 255.255.252.192 {
 }
 ```
 #### Wi-Fi
-```subnet 10.0.0.0 netmask 255.255.252.0 {
+```
+subnet 10.0.0.0 netmask 255.255.252.0 {
         option routers                  10.0.0.1;
         option subnet-mask              255.255.252.0;
         option domain-name-servers      10.0.0.1;
