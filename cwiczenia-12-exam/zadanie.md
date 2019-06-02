@@ -17,7 +17,7 @@
   * poziom 1
     * 115, 116, 117, 122
   * poziom 2
-    * 201, 202, 203 
+    * 201, 202, 203
 * Każde z laboratoriów wyposażone jest w 35 stanowisk dla uczestników kursów
 * Jednostka planuje otworzenie kolejnych laboratoriów 017 oraz 204
 * Każda kondygnacja wyposażona jest w izolowaną sieć Wi-Fi, udostępniajacą sieć internet podłączonym gościom
@@ -45,3 +45,18 @@
 * W specyfikacji uwzględnij wielkości sieci oraz ich adresy
 * W specyfikacji uwzględnij konfigurację tablicy routingu
 * Dokumentację graficzną stworzonej architektury przygotuj w programie ``DIA`` lub podobnym
+
+
+--------------
+## Rozwiązanie
+### Poziom 0
+  * 009, 013, 014 // +017
+  = 140
+### Poziom 1
+  * 115, 116, 117, 122
+  = 140
+### Poziom 2
+  * 201, 202, 203 // +204
+  = 140
+  
+W sumie 420 komputerów
