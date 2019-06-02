@@ -172,8 +172,8 @@ W sumie 420 komputerów
 ``sudo iptables-save | sudo tee /etc/iptables.sav``  
 
 ### DHCP
-``apt install isc-dhcp-server`` 
-odkomentować ``config DHCPDv4_CONF``
+``apt install isc-dhcp-server``  
+odkomentować ``config DHCPDv4_CONF``  
 #### Sale
 ``/etc/default/isc-dhcp-server``  
 ``INTERFACESv4=enp0s8 enp0s9``  
