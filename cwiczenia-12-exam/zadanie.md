@@ -96,19 +96,19 @@ W sumie 420 komputerów
 ### ip
 #### Serwer główny
  ``/etc/netplan/01-network-manager-all.yaml``
- ``network:
-    version: 2
-    renderer: NetworkManager
-    ethernets:
-       enp0s8:
-        dhcp4: no
-        addresses: [188.156.220.161/28]
-        gateway4: 188.156.220.161
-        nameservers:
-          addresses: [8.8.4.4,8.8.8.8]
-       enp0s9:
-        dhcp4: no
-        addresses: [188.156.220.177/28]
-        gateway4: 188.156.220.177
-        nameservers:
-          addresses: [8.8.4.4,8.8.8.8]``
+ ``network:  
+    version: 2  
+    renderer: NetworkManager  
+    ethernets:  
+       enp0s8:  
+        dhcp4: no  
+        addresses: [188.156.220.161/28]  
+        gateway4: 188.156.220.161  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]  
+       enp0s9:  
+        dhcp4: no  
+        addresses: [188.156.220.177/28]  
+        gateway4: 188.156.220.177  
+        nameservers:  
+          addresses: [8.8.4.4,8.8.8.8]``  
