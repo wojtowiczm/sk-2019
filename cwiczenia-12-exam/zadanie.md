@@ -155,3 +155,4 @@ W sumie 420 komputerów
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]  
   ```
+
