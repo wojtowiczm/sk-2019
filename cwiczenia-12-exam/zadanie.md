@@ -95,6 +95,7 @@ W sumie 420 komputerów
 
 ### Ustawienie statycznego ip
  ``/etc/netplan/01-network-manager-all.yaml``
+ 
 #### Serwer główny
  ```network:  
     version: 2  
@@ -155,4 +156,8 @@ W sumie 420 komputerów
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]  
   ```
+### Ip forwarding
+``/etc/sysctl.d/99-sysctl.conf``
 
+#### Serwer główny, Sale, Wi-Fi
+``net.ipv4.ip_forward=1``
