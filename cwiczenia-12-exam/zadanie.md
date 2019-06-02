@@ -96,7 +96,7 @@ W sumie 420 komputerów
 ### ip
 #### Serwer główny
  ``/etc/netplan/01-network-manager-all.yaml``
- ``network:  
+ ```network:  
     version: 2  
     renderer: NetworkManager  
     ethernets:  
@@ -111,4 +111,4 @@ W sumie 420 komputerów
         addresses: [188.156.220.177/28]  
         gateway4: 188.156.220.177  
         nameservers:  
-          addresses: [8.8.4.4,8.8.8.8]``  
+          addresses: [8.8.4.4,8.8.8.8]```
