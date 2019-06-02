@@ -164,6 +164,6 @@ W sumie 420 komputerów
 
 ### Masquerade
 #### Serwer główny
-``sudo iptables -t nat -A POSTROUTING -s 188.156.220.160/28 -o enp0s3 -j MASQUERADE``
-``sudo iptables -t nat -A POSTROUTING -s 188.156.220.176/28 -o enp0s3 -j MASQUERADE``
-``sudo iptables-save | sudo tee /etc/iptables.sav``
+``sudo iptables -t nat -A POSTROUTING -s 188.156.220.160/28 -o enp0s3 -j MASQUERADE``  
+``sudo iptables -t nat -A POSTROUTING -s 188.156.220.176/28 -o enp0s3 -j MASQUERADE``  
+``sudo iptables-save | sudo tee /etc/iptables.sav``  
