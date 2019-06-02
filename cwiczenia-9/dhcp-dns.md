@@ -42,7 +42,7 @@ Przydatne polecenia
 | ------------- |:-------------| :---------------| 
 |   ``nslookup``    | ``nslookup uek.krakow.pl`` | kwerenda do serwera dns |
 |   ``dig``         | ``dig uek.krakow.pl``      | kwerenda do serwera dns |
-|                   |                            | wyczyść lokalny cache dns |   
+|   ``nscd``        | ``nscd -I hosts``          | wyczyść lokalny cache dns |   
 
 
 Zadanie do domu
