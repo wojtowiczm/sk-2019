@@ -53,7 +53,7 @@
 * sale - ``188.156.220.160/28``
   * podsieć - ``10.0.0.0/16``
 * WI-FI - ``188.156.220.176/28``
-  * podsieć - ``10.0.0.0/22``
+  * podsieć - ``11.0.0.0/22``
 
 ### Poziom 0
   009, 013, 014, +017 // = 105 + 35 komputerów
@@ -156,7 +156,7 @@ W sumie 420 komputerów
           addresses: [8.8.4.4,8.8.8.8]  
        enp0s8:  
         dhcp4: no  
-        addresses: [10.0.0.1/22]  
+        addresses: [11.0.0.1/22]  
         gateway4: 188.156.220.177  
         nameservers:  
           addresses: [8.8.4.4,8.8.8.8]  
@@ -201,15 +201,13 @@ subnet 10.0.115.0 netmask 255.255.252.192 {
   
 ``/etc/dhcp/dhcpd.con``  
 ```
-subnet 10.0.0.0 netmask 255.255.252.0 {
-        option routers                  10.0.0.1;
+subnet 11.0.0.0 netmask 255.255.252.0 {
+        option routers                  11.0.0.1;
         option subnet-mask              255.255.252.0;
-        option domain-name-servers      10.0.0.1;
-        range                           10.0.0.15 10.0.3.250;
+        option domain-name-servers      11.0.0.1;
+        range                           11.0.0.15 11.0.3.250;
 }
 ```
 ### Routing
 #### Sale
-``ip route add 10.0.0.0/16 via 188.156.220.161``  
-#### Wi-Fi
-``ip route add 10.0.0.0/22 via 188.156.220.177``
+``ip route add 10.0.0.0/16 via 188.156.220.161``
