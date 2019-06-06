@@ -53,7 +53,7 @@ Włączenie ip forwarding na PC0:
 Dodanie trasy na PC1 i PC2:  
 ``ip route add default via`` + adres ip PC0
 
-Udostępnienie internetu dla LAN1 i LAN2 (polecenia na PC0):
+Udostępnienie internetu dla LAN1 i LAN2 (polecenia na PC0):  
 ``iptables -t nat -A POSTROUTING -s`` + adres ip LAN1 + ``-o`` + nazwa interfejsu do LAN1 + ``-j MASQUERADE``  
 ``iptables -t nat -A POSTROUTING -s`` + adres ip LAN2 + ``-o`` + nazwa interfejsu do LAN2 + ``-j MASQUERADE``  
 ``iptables-save | sudo tee /etc/iptables.sav``
