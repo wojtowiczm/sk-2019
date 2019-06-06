@@ -209,5 +209,5 @@ subnet 11.0.0.0 netmask 255.255.252.0 {
 }
 ```
 ### Routing
-#### Sale
-``ip route add 10.0.0.0/16 via 188.156.220.161``
+``ip route add default via 10.0.115.1``
+``ip route add default via 10.0.201.1``
