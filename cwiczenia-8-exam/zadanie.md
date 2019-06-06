@@ -52,6 +52,7 @@ Włączenie ip forwarding na PC0:
 ``sysctl -w net.ipv4.ip_forward=1``
 
 Dodanie trasy na PC1 i PC2:  
+``/etc/resolv.conf`` - zmiana dns
 ``ip route add default via`` + adres ip PC0
 
 Udostępnienie internetu dla LAN1 i LAN2 na PC0:  
