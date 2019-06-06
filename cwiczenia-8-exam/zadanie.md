@@ -51,9 +51,11 @@ Zmiana adresów ip:
 Włączenie ip forwarding na PC0:  
 ``sysctl -w net.ipv4.ip_forward=1``
 
-Dodanie trasy na PC1 i PC2:  
-``/etc/resolv.conf`` - zmiana dns  
+Dodanie trasy na PC1 i PC2:   
 ``ip route add default via`` + adres ip PC0
 
-Udostępnienie internetu dla LAN1 i LAN2 na PC0:  
+Udostępnienie internetu dla LAN1 i LAN2  
+na PC1 i PC2:  
+``/etc/resolv.conf`` - zmiana dns  
+na PC0:  
 ``iptables -t nat -A POSTROUTING -o`` + nazwa interfejsu z internetem + ``-j MASQUERADE``
