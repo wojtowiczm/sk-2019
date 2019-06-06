@@ -45,7 +45,8 @@ PC2
 --------------
 
 Zmiana adresów ip:  
-``ip addr add`` + adres ip + ``dev`` + nazwa interfejsu 
+``ip addr add`` + adres ip + ``dev`` + nazwa interfejsu  
+``ip link set`` + nazwa interfejsu + ``up``
 
 Włączenie ip forwarding na PC0:  
 ``sysctl -w net.ipv4.ip_forward=1``
