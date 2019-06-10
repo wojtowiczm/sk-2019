@@ -90,7 +90,7 @@
   
 W sumie 420 komputerów  
 
-![diagram](diagram2.jpg)
+![diagram](diagram3.jpg)
 
 ## Konfiguracja
 ``/etc/hostname`` - zmiana nazwy komputera
